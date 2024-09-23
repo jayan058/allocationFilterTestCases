@@ -1,0 +1,29 @@
+{
+  "visibleElements": [
+    ".table-title__filters--dropdowns",
+    ".filter__item--search",
+    ".search-box",
+    ".input-wrapper",
+    ".search-icon",
+    ".lf-input",
+    "#checked-toggle",
+    ".toggle-switch__slider",
+    ".toggle-switch__label",
+    ".toggle-switch__text",
+    ".dropdown-button__label",
+    ".dropdown-button__value-container",
+    ".dropdown-button__value",
+    ".dropdown-button__indicator",
+    ".custom-datepicker",
+    ".input-label",
+    ".SingleDatePicker",
+    ".SingleDatePickerInput",
+    ".SingleDatePickerInput_calendarIcon",
+    ".DateInput",
+    ".DateInput_input"
+  ],
+  "specialElement": {
+    "selector": ".dropdown-button",
+    "length": 5
+  }
+}

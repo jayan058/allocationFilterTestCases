@@ -1,0 +1,22 @@
+/// <reference types="cypress" />
+import "./commands/utils/setRefreshToken";
+import "./commands/utils/loginValidator";
+import "./commands/allocations/allocationUtils/checkVisibilityOfElements";
+import "./commands/allocations/filterByName/filterByName";
+import "./commands/allocations/filterByName/navigateAndCheckEachPage";
+import "./commands/allocations/filterByName/checkRecordsInEachPage";
+import "./commands/allocations/allocationUtils/getTotalPages";
+import "./commands/allocations/filterByName/handleInvalidQuery";
+import "./commands/allocations/filterByName/typeInputName";
+import "./commands/allocations/filterByRoles/filterByRoles";
+import "./commands/allocations/filterByRoles/validateRoleResults";
+import "./commands/allocations/filterByRoles/checkEachRole";
+import "./commands/allocations/filterByRoles/removingRoles";
+import "./commands/allocations/filterByRoles/checkIfSelectedRoleIsVisible";
+import "./commands/allocations/allocationUtils/filterByDropdown";
+import "./commands/allocations/allocationUtils/applyFilterButtonClick";
+import "./commands/allocations/allocationUtils/navigateThePages";
+import "./commands/allocations/allocationUtils/checkRecordsOnEachPageForDropdown";
+import "./commands/allocations/allocationUtils/checkRecordsOnEachPageForDropdown";
+import "./commands/allocations/allocationUtils/noRecordsFound";
+import "./commands/utils/login";
