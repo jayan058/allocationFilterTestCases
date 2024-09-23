@@ -21,7 +21,7 @@ Cypress.Commands.add("checkResetFilters", () => {
   cy.get("input[placeholder='Search by Name']")
     .invoke("val")
     .then((nameAfterReset) => {
-      console.log(nameAfterReset);
+     
       expect(nameAfterReset).to.equal("");
     });
 });

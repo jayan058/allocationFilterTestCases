@@ -9,7 +9,6 @@ Cypress.Commands.add("login", () => {
   cy.visit("/");
   cy.setrefreshToken();
   dashBoard.clickWrongModalButton();
-  console.log(Cypress.env("refreshToken"));
   const fullName = decodeRefreshToken(Cypress.env("refreshToken"));
   cy.loginValidator(fullName);
   teams.visitTeamsPage();
