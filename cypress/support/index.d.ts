@@ -31,5 +31,7 @@ declare namespace Cypress {
     navigateThePages(index: number, query: string): Chainable<Element>;
     noRecordsFound(): Chainable<Element>;
     login(): Chainable<Element>;
+    resetFilters(): Chainable<Element>;
+    checkResetFilters(): Chainable<Element>;
   }
 }

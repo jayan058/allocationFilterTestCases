@@ -14,6 +14,6 @@ describe("Google Authentication - Area Filters", () => {
 
   it("should display appropriate message if there are no records in the area", function () {
     const { filter2 } = this.filters;
-    allocations.handNoRecordsFound(filter2.type, filter2.value, filter2.index);
+    allocations.handNoRecordsFound(filter2.type, filter2.value);
   });
 });

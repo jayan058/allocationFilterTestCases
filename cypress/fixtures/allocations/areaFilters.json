@@ -1,13 +1,12 @@
 {
-    "filter1": {
-      "type": "Area",
-      "value": "DevOps",
-      "index": 1
-    },
-    "filter2": {
-      "type": "Area",
-      "value": "Administration",
-      "index": 1
-    }
+  "filter1": {
+    "type": "Area",
+    "value": "DevOps",
+    "index": 1
+  },
+  "filter2": {
+    "type": "Area",
+    "value": "Administration",
+    "index": 1
   }
-  
+}

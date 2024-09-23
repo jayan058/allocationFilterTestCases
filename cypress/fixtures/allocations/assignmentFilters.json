@@ -1,8 +1,7 @@
 {
-    "filter1": {
-      "type": "Assignment",
-      "value": "Assigned",
-      "index": 6
-    }
+  "filter1": {
+    "type": "Assignment",
+    "value": "Assigned",
+    "index": 6
   }
-  
+}

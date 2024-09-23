@@ -39,10 +39,14 @@ class Allocations {
     cy.wait(1000);
     cy.navigateThePages(index, expectedValue);
   }
-  handNoRecordsFound(dropdownLabel, expectedValue, index) {
+  handNoRecordsFound(dropdownLabel, expectedValue) {
     cy.selectFromDropdown(dropdownLabel, expectedValue);
     cy.wait(1000);
     cy.noRecordsFound();
+  }
+  resetFilters() {
+    cy.resetFilters();
+    cy.checkResetFilters();
   }
 }
 

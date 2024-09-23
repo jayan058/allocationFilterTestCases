@@ -20,3 +20,5 @@ import "./commands/allocations/allocationUtils/checkRecordsOnEachPageForDropdown
 import "./commands/allocations/allocationUtils/checkRecordsOnEachPageForDropdown";
 import "./commands/allocations/allocationUtils/noRecordsFound";
 import "./commands/utils/login";
+import "./commands/allocations/resetFilters/resetFilters";
+import "./commands/allocations/resetFilters/checkResetFilter";
