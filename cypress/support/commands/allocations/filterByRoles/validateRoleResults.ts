@@ -4,8 +4,6 @@ Cypress.Commands.add("validateRoleResults", (selector, roles = [], index) => {
       cy.checkEachRole(selector, roles, index).then(() => {
         // Ensure to return here
         if (currentPage < totalPages) {
-       
-
           cy.get(".lf-table__pagination-btn").contains("Next").click();
           cy.wait(500); // Wait for the page to load
           iteratePages(currentPage + 1); // Move to the next page

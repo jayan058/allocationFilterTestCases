@@ -11,7 +11,7 @@ class Allocations {
     cy.checkVisibilityOfElements();
   }
   filterByName() {
-    cy.filterByName("a");
+    cy.filterByName("Jayan Ghimire");
   }
   invalidSearchQuery() {
     cy.handleInvalidQuery("Invalid Name");

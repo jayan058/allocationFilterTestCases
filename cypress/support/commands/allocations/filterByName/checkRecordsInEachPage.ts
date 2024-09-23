@@ -6,10 +6,10 @@ Cypress.Commands.add("checkRecordsOnPage", (query: string) => {
         cy.wrap(employeeNameContainer)
           .invoke("text")
           .then((actualName) => {
-            expect(actualName).to.satisfy(
-              (name: string) =>
-                name.includes(query) || name.includes(query.toUpperCase()),
-            );
+            const actualNameLower = actualName.toLowerCase();
+            const queryLower = query.toLowerCase();
+
+            expect(actualNameLower).to.include(queryLower);
           });
       });
   });
