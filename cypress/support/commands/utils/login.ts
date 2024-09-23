@@ -6,10 +6,10 @@ Cypress.Commands.add("login", () => {
   const dashBoard = new DashboardPage();
   const teams = new Teams();
   const allocations = new Allocations();
-
   cy.visit("/");
   cy.setrefreshToken();
   dashBoard.clickWrongModalButton();
+  console.log(Cypress.env("refreshToken"));
   const fullName = decodeRefreshToken(Cypress.env("refreshToken"));
   cy.loginValidator(fullName);
   teams.visitTeamsPage();

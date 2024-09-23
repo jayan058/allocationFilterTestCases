@@ -17,7 +17,7 @@ export default defineConfig({
       // implement node event listeners here
     },
     env: {
-      refreshToken: process.env.CYPRESS_REFRESH_TOKEN,
+      refreshToken: process.env.REFRESH_TOKEN,
     },
   },
 });
