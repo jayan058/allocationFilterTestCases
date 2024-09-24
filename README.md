@@ -2,8 +2,6 @@
 
 - [Introduction](#introduction)
 - [Installation](#installation)
-- [Basic Usage](#basic-usage)
-
 
 ## Introduction
 
