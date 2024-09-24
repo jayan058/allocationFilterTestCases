@@ -16,7 +16,7 @@ The automated testing scripts are written to test whether the filtering is being
 
 ## Installation
 
-To get started with Cypress, follow these steps:
+To get started with running the project, follow these steps:
 
 1. **Install Node.js**: Ensure you have Node.js installed on your machine. You can download it from the official Node.js website.
 
