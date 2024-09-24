@@ -25,18 +25,13 @@ To get started with Cypress, follow these steps:
 2. **Clone the repository**:
    ```bash
    git clone https://github.com/jayan058/allocationFilterTestCases.git
-   
 3. **Navigate to the directory**:
    ```bash
    cd allocationFilterTestCases
-
- 
 4. **Install the dependencies**:
    ```bash
    npm install
-
 5. **Run Cypress**:
    ```bash
    npx cypress open
-         
       
