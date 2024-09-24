@@ -1,5 +1,5 @@
 import Allocations from "../../pages/teams/allocations";
-describe("Google Authentication - Area Filters", () => {
+describe("Area Filters", () => {
   const allocations = new Allocations();
 
   beforeEach(() => {

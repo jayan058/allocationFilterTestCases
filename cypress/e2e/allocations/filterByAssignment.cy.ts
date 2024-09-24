@@ -1,5 +1,5 @@
 import Allocations from "../../pages/teams/allocations";
-describe("Google Authentication - Assignment Filters", () => {
+describe("Assignment Filters", () => {
   const allocations = new Allocations();
 
   beforeEach(() => {

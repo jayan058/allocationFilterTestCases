@@ -1,5 +1,5 @@
 import Allocations from "../../pages/teams/allocations";
-describe("Google Authentication", () => {
+describe("Reset filters", () => {
   const allocations = new Allocations();
   beforeEach(() => {
     cy.login();
